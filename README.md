@@ -4,9 +4,8 @@ A Model Context Protocol (MCP) server that provides browser automation capabilit
 
 ### Key Features
 
-- **Fast and lightweight**. Uses Playwright's accessibility tree, not pixel-based input.
-- **LLM-friendly**. No vision models needed, operates purely on structured data.
-- **Deterministic tool application**. Avoids ambiguity common with screenshot-based approaches.
+- **Playwright mcp full features**
+- **Add evaluate to run javavscript**: To check if code generated is working or not
 
 ### Requirements
 - Node.js 18 or newer
