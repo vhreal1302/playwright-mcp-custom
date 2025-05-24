@@ -22,6 +22,7 @@ test('test snapshot tool list', async ({ client }) => {
     'browser_click',
     'browser_console_messages',
     'browser_drag',
+    'browser_evaluate',
     'browser_file_upload',
     'browser_generate_playwright_test',
     'browser_handle_dialog',
@@ -52,6 +53,7 @@ test('test vision tool list', async ({ visionClient }) => {
   expect(new Set(visionTools.map(t => t.name))).toEqual(new Set([
     'browser_close',
     'browser_console_messages',
+    'browser_evaluate',
     'browser_file_upload',
     'browser_generate_playwright_test',
     'browser_handle_dialog',
